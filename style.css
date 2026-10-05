@@ -1,0 +1,163 @@
+*{padding:0px;
+margin:auto;
+box-sizing:border-box}
+:root{
+    --yelow-color:#f4e409;
+    --blue-colr:#00296b;
+    --black-color:#040303;
+    --white-colr:#e8f1f2;
+    --red-color:#880d1e;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding:20px;
+    border-radius: 20px;
+    background: var(--red-color);
+
+}
+
+.header img {
+    width:50px;
+    height: 50px;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.header ul a{
+    text-decoration: none;
+    color:var(--white-colr);
+    font-size:20px;
+}
+.header button{
+    background: var(--yelow-color);
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    font-size:20px;
+
+}
+.header button a{
+    text-decoration: none;;
+}
+.header ul li::after{
+    content:'';
+    color:var(--white-color);
+    background: var(--yelow-color);
+    display:block;
+    width:0%;
+    height:2px;
+}
+.header ul li:hover::after{
+    width:100%;
+    transition:0.5s;
+    margin:auto;
+}
+ swiper-container {
+        width: 96%;
+        height: 400px;
+        margin:auto;
+      }
+
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+/*goal */
+.goals{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:20px;
+    background: var(--red-color);
+    margin:50px 20px;
+    padding: 30px;
+    border-radius: 20px;
+    color: var(--white-colr);
+}
+.goal_one h4{
+    color:var(--blue-colr);
+    font-size: 20px;
+    line-height: 50px;
+}
+.goal_one h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.goal_one button{
+    margin-top:20px;
+    background: var(--yelow-color);
+    border-radius: 20px;
+    border:none;
+    padding:10px 50px;
+}
+.goal_one button a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.goal_one button:hover{
+    background-color: var(--white-colr);
+}
+.goal_two {
+
+    text-align:center;
+    padding:10px;
+}
+.goal_two img{
+    width:150px;
+}
+.goal_two h6{
+    font-size: 20px;
+    margin:10px 0px;
+    
+}
+.goal_two_bg{
+    background: var(--white-colr);
+    color:var(--black-color);
+    border-radius:20px;
+    padding:10px;
+}
+/* providing */
+.providings{
+    background: var(--blue-colr);
+    margin:30px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.providings h4{
+    color:var(--white-colr);
+}
+.providings h2{
+    color:var(--red-color);
+}
+
+.divider{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+
+.divider span{
+
+    width:10px;
+    height: 10px;
+    background:var(--yelow-color);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <linkrel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar start-->
+     <section class="navbar">
+        <nav class="header">
+            <img src="img/wave.png" alt="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button><a href="#">Login</a></button>
+
+        </nav>
+     </section>
+     <!-- navbar end-->
+      <!-- slider-->
+       <swiper-container
+      class="mySwiper"
+      pagination="true"
+      pagination-type="progressbar"
+      navigation="true"
+    >
+      <swiper-slide><img src="img/1.jpg" alt=""></swiper-slide>
+      <swiper-slide><img src="img/2.jpg" alt=""></swiper-slide>
+      <swiper-slide><img src="img/3.jpg" alt=""></swiper-slide>
+      
+    </swiper-container>
+
+    <!-- our goal-->
+     <section class="goals">
+      <div class="goal_one" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-delay="500">
+        <p>why choose us</p>
+        <h1>our goals & benefits</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consectetur voluptatem accusamus accusantium!</p>
+        <button><a href="#">More Benefits</a></button>
+      </div>
+      <div class="goal_two" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-delay="500">
+        <img src="img/wave.png" alt="" width="50px">
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nihil.</p>
+      </div>
+      <div class="goal_two goal_two_bg" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-delay="500" >
+        <img src="img/wave.png" alt="" width="50px">
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nihil.</p>
+      </div>
+      <div class="goal_two" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-delay="500">
+        <img src="img/wave.png" alt="" width="50px">
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nihil.</p>
+      </div>
+     </section>
+
+     <!-- providing -->
+      <section class="providings">
+        <h4>What We Create</h4>
+        <h2>Providing Best Services</h2>
+        <div class="divider"><span></span><span></span><span></span></div>
+       
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init(
+  {
+    once:true,
+  }
+);
+  </script>
+
+</body>A
+</html>
